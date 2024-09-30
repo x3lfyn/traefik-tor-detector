@@ -1,0 +1,9 @@
+displayName: Tor detector
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/x3lfyn/traefik-tor-detector
+
+summary: "Adds X-Tor header to request that tells whether client is Tor exit node"
+
+testData: {}
